@@ -2,7 +2,7 @@
 :root {
   --ground: #F6F4EF; --ink: #1F2A30; --muted: #55626B; --line: #DDD8CC; --surface: #FFFFFF;
   --teal: #2E6F6A; --on-teal: #F6F4EF;
-  --sand: #C9A66B; --rose: #C9787F; --sage: #6FA287; --tealgray: #7A9E9F;
+  --sand: #C9A66B; --rose: #C97B84; --sage: #6FA287; --tealgray: #7A9E9F;
   color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
