@@ -50,6 +50,12 @@ header.site nav a:hover, header.site nav a[aria-current="page"] { text-decoratio
 .band .eyebrow { color: var(--on-band-muted); }
 .band .lede { color: var(--on-band-soft); max-width: 31rem; margin-bottom: 2.25rem; }
 .pill { display: inline-block; border: 1px solid var(--band-line); border-radius: 0.75rem; padding: 0.55rem 1rem; font-size: 1rem; color: var(--on-band-soft); }
+/* The one button on the site: the download link, once there is one. Ink on off-white, never teal: teal is the help path. */
+.get-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.1rem; margin: 0; }
+.closing .get-row { justify-content: center; margin: 0.25rem 0 1.5rem; }
+a.get { display: inline-block; background: var(--ink); color: var(--ground); font-weight: 600; text-decoration: none; border-radius: 1.125rem; padding: 0.85rem 1.5rem; }
+.band a.get { background: var(--on-band); color: var(--band); }
+.get-note { color: var(--on-band-soft); font-size: 1rem; }
 .screens { position: relative; height: 33rem; }
 .screens img { position: absolute; width: 16.5rem; height: auto; border-radius: 2.3rem 2.3rem 0 0; display: block; }
 .screens .light { left: 4%; top: 0; }
